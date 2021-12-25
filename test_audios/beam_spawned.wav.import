@@ -2,12 +2,12 @@
 
 importer="wav"
 type="AudioStreamSample"
-path="res://.import/beam_spawned.wav-52fdf6baf15310acca6da912b8857916.sample"
+path="res://.import/beam_spawned.wav-e6fe9ad58570bc87b00aa4863d19abae.sample"
 
 [deps]
 
-source_file="res://aduios/beam_spawned.wav"
-dest_files=[ "res://.import/beam_spawned.wav-52fdf6baf15310acca6da912b8857916.sample" ]
+source_file="res://test_audios/beam_spawned.wav"
+dest_files=[ "res://.import/beam_spawned.wav-e6fe9ad58570bc87b00aa4863d19abae.sample" ]
 
 [params]
 

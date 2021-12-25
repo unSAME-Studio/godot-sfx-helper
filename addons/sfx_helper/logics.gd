@@ -4,8 +4,8 @@ extends Node
 
 var base_volume = 0.0
 
-export var min_volume = 0.9
-export var max_volume = 1.1
+export var min_volume = -3.0
+export var max_volume = 3.0
 export var min_pitch = 0.9
 export var max_pitch = 1.1
 
@@ -24,13 +24,13 @@ func _ready():
 
 
 func _on_finished():
-	print("Finished")
+	#print("Finished")
 	reset_parameter()
 
 
-# Reset the parameter for new loop
+# Reset the parameter for new play
 func reset_parameter():
-	#audio_player.set_volume_db(base_volume + rand_range(min_volume, max_volume))
+	audio_player.set_volume_db(base_volume + rand_range(min_volume, max_volume))
 	audio_player.set_pitch_scale(rand_range(min_pitch, max_pitch))
 
 
